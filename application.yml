@@ -8,9 +8,9 @@ application:
   file: application.yml
   profile: default
 
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/mungmomember?useUnicode=true&characterEncoding=utf8
-    username: mungmo
-    password: 1234
-    driver-class-name: com.mysql.cj.jdbc.Driver
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/mungmomember?useUnicode=true&characterEncoding=utf8
+#    username: mungmo
+#    password: 1234
+#    driver-class-name: com.mysql.cj.jdbc.Driver
