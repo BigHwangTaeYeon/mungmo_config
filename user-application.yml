@@ -15,15 +15,15 @@ spring:
     password: '{cipher}AQBpLhJcyxMMEVNV3xrMEbqvyn9u7s/qHVCWqrEnZdft0DcIBmnhgT7mCKnWMordBb1/DT3Q+0rJQ9Iz2I/Y1f6F9VzkdwdGlI6Z6n6TPxl7vXY8T3jH7o3DoCKi512dE5ILx6qQtqHYxHJsUaeVLcvB2q0FJYc9ZDviSYyZPm8WZRc77iMz6QxQHDc7Au8//e5PH+TvgT/nzgKcDUjrkhrCEjhCOPcJC6PcRHopOBZ2ICpS0ZuhoI07PlgepbRbyPM2D7abRqd5KRUs/T9gGPEmCbgbt69NN6AXixNXJQ0HWgEdaTNBFTs3wQwXZ6rUG4+Sk0Pk8hgnc6UjcghCuon93LqixHj0dRwKVzudYTutzMfdVs8f3o6y7YuW8r5XSLQ='
     driver-class-name: '{cipher}AQCJiN03bQFIOatySyUhf4zWQ2yP0liJHEQmofOYLT0TKMNr/ezoUlkL/lJmtLfL2Hxs6xIFyvLtKlFeQLIoONecHXW5t5dCIUZgbedYDcMzpCs8aJTUxCA9/Ydd7SOPX2h5vENn9vpfpZdLf1l7Ogr2AaFjGcbwgz+bfOCVXGRSYOZUC+uee3fJ9MwOgBXJUI2fKcpmuHcImVQXsOy9SLF22PlMK838bR0PC9D0f7ITfBGIHmzVZ6VjhPL8/nCw5uOI+y5JRlcxtR7VVSEof578H/kNy4FGJhfNrZY1ey4JFK/dscn0796FzCKdfarCjsKnU7FYIStjGz5HrxQU3ZPn1B1r6Cix508dVRUJF+Skh3elcTNJ8bDeSuCqdoTx1rQGN05jpOQ2HIG7Yw5YxodZ'
 
-#oauth:
-#  kakao:
-#    client-id: 3ab9b377710ef52220336f762a1dbce3
-#    url:
-#      auth: https://kauth.kakao.com
-#      api: https://kapi.kakao.com
-#  naver:
-#    secret: 96GkYsR7Cc
-#    client-id: 7suUMkLPrKL69mjXEPIr
-#    url:
-#      auth: https://nid.naver.com
-#      api: https://openapi.naver.com
+oauth:
+  kakao:
+    client-id: '{cipher}AQBNSdzzwFgF1VSgHScAbIC9SB7KGEm01YiMlN1f6wBbAFYAfbuVrliVxWEtbzyxTd/PDIq+DJYFkr4Yy/jSRstTaursSN1bbFgWkkS3ai6wFM71hYb9aNlKE+LndTlD75v512bugzCgb3DuXAdODu39xX4gSWnhZOtvzrI1gnU4YToxkGnfegWoCnj8vpuq6dALdzx3vl5sXPQG18NiTbUnquENKWAzoSy4sl4huQnP0yIEjpghLOFGLc2KxRdFT9MJdw4LXKFKOAfyoe5ZlSned+FSOLqimtEVayMHzrTpBZIYga2+L7DZWXYHe27gQ0h5Vp10pJmgL6kqeHAwJVCwdIfD0I9cZXLBJfqQt+LSpvQDr8WjA5BI6YqanhM7mbvGJKv1+C6l+suA2cJbVjXTFZHWMUYK2Q4mKcgp5/RI1A=='
+    url:
+      auth: https://kauth.kakao.com
+      api: https://kapi.kakao.com
+  naver:
+    secret: '{cipher}AQABMu9Dho8kXXHE+rceP/GZ3IZyHpoCFhbFaMNGTaHYsK+BxaD1ySCy9f2F+vjTPEUx+cILgx4CC8z2nxUem7wnLlawu6yoP6i0jhNTEaZqrKub7FPcFZ0G7hds+lxPfKecP5O7v+3Sg+0W2hmdZy6okQlwaaauZ+m4ZqflhFbUG1wt5c44e+xQVt4bjVbZyLDG1N+X0M0s1USmGIal+GI3DALWZb9fgxLoUfwofZKfHI8CyKJrhpxlLjcZgd7N9bbSqDrzMcyEp3akJy7zgfPmkT/4wmPkQmSywHLl+G6wS8WnbjYKLBC0Ee3r+Jjlglx56tzXd6HHEMlNyK9SWjCplpcyra9GGxXPUOo02p8+lSSsaXsMA7Z1WxR8ZAbmzug='
+    client-id: '{cipher}AQCF5435eBPALNa22PJ/WIng0I/cPshhvl2sVhotbzrU0Wl4g4/FRQLYKHszOULWv87N4kqE61LD3+qql60FaV+uFwX0vLfld725k7Ky73BVh2llHZiGKTThMOknMHvxE78T/ST9Km+PUpEaEUxm8m1e4zLctzf5WBJlUud8glJmRakVCYuLPCIgOF6EqaDSdRwI0fTG/WoOKsp8/2h1w91N3ZGFinkCaTnYRPeQxuUfDV4ZzN+CUF4WeFjkb+1xZ34sUlmLxOtl/ovhRFbvXDNL/n8VcolHD4tBpTGl/6KviBq6dwWlfBOTy/3JJfRQ9JoDtsVQ5AmkrzPpbXGLpeyHroeD7PvqZo4pnNdgZbeeAJPotEECtOA3/PLhODKUvEx1TQHjqBEguphJeTWsc0oy'
+    url:
+      auth: https://nid.naver.com
+      api: https://openapi.naver.com
