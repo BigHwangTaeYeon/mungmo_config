@@ -14,7 +14,16 @@ spring:
     username: '{cipher}AQAnawy+Rff9SVQfmqeD360fJrOI1Jagz5jcME01X2nes+7/Ch5i171gZ1mwAq9wzrVn0ND+G7het3KfyDg4FXeV3knVopE3H3jNwPRuK/CnNhUjlSlNRFG6RoAItAD8C0r5/QL4rSCF2b+URLBY0Dgsha3yH7eXd0mWpy9cIwt6APJvwBfwNE5DDL1r1IokV+aw1BmKp9ruGbElSPimfmwiIYh5hBgnXUkXkHQw+ZwQE6fc5tRsp6oIDXBRTB/WmoytU3IZ6ui4zna6kSvqU1r8APuxXW3przFSuVI7Ww2VldFc1XJnTWpArYPBU817hKpd9EwTtr2RR+D1TecZW1t6H5UNkmfflucVb3ZeFKCXYZ7UJXNlv52CRjOo/EFvdBU='
     password: '{cipher}AQBpLhJcyxMMEVNV3xrMEbqvyn9u7s/qHVCWqrEnZdft0DcIBmnhgT7mCKnWMordBb1/DT3Q+0rJQ9Iz2I/Y1f6F9VzkdwdGlI6Z6n6TPxl7vXY8T3jH7o3DoCKi512dE5ILx6qQtqHYxHJsUaeVLcvB2q0FJYc9ZDviSYyZPm8WZRc77iMz6QxQHDc7Au8//e5PH+TvgT/nzgKcDUjrkhrCEjhCOPcJC6PcRHopOBZ2ICpS0ZuhoI07PlgepbRbyPM2D7abRqd5KRUs/T9gGPEmCbgbt69NN6AXixNXJQ0HWgEdaTNBFTs3wQwXZ6rUG4+Sk0Pk8hgnc6UjcghCuon93LqixHj0dRwKVzudYTutzMfdVs8f3o6y7YuW8r5XSLQ='
     driver-class-name: '{cipher}AQCJiN03bQFIOatySyUhf4zWQ2yP0liJHEQmofOYLT0TKMNr/ezoUlkL/lJmtLfL2Hxs6xIFyvLtKlFeQLIoONecHXW5t5dCIUZgbedYDcMzpCs8aJTUxCA9/Ydd7SOPX2h5vENn9vpfpZdLf1l7Ogr2AaFjGcbwgz+bfOCVXGRSYOZUC+uee3fJ9MwOgBXJUI2fKcpmuHcImVQXsOy9SLF22PlMK838bR0PC9D0f7ITfBGIHmzVZ6VjhPL8/nCw5uOI+y5JRlcxtR7VVSEof578H/kNy4FGJhfNrZY1ey4JFK/dscn0796FzCKdfarCjsKnU7FYIStjGz5HrxQU3ZPn1B1r6Cix508dVRUJF+Skh3elcTNJ8bDeSuCqdoTx1rQGN05jpOQ2HIG7Yw5YxodZ'
-#    url: jdbc:mysql://localhost:3306/mungmomember?useUnicode=true&characterEncoding=utf8
-#    username: mungmo
-#    password: 1234
-#    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#oauth:
+#  kakao:
+#    client-id: 3ab9b377710ef52220336f762a1dbce3
+#    url:
+#      auth: https://kauth.kakao.com
+#      api: https://kapi.kakao.com
+#  naver:
+#    secret: 96GkYsR7Cc
+#    client-id: 7suUMkLPrKL69mjXEPIr
+#    url:
+#      auth: https://nid.naver.com
+#      api: https://openapi.naver.com
